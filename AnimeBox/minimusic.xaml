@@ -1,0 +1,23 @@
+﻿<Window 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Class="AnimeBox.minimusic"
+         Height="166.588" Width="176.834" WindowStyle="None" Background="Transparent" ResizeMode="NoResize" Foreground="#00000000" Opacity="1" AllowsTransparency="True" WindowStartupLocation="CenterScreen" Name="minimusicbox" MouseDoubleClick="minimusicbox_MouseDoubleClick">
+    <Grid>
+    	<Ellipse Fill="#FF93D6D6" Margin="24,19.763,24.834,21.753" Opacity="0.795">
+    		<Ellipse.Effect>
+    			<BlurEffect Radius="30"/>
+    		</Ellipse.Effect>
+    	</Ellipse>
+    	<Ellipse Fill="#FF93D6D6" Margin="24,19.763,24.834,21.753" Opacity="0.795">
+    		<Ellipse.Effect>
+    			<BlurEffect Radius="30"/>
+    		</Ellipse.Effect>
+    	</Ellipse>
+    	<Button Content="Button" Height="24" Margin="75.411,0,77.423,51.587" Style="{DynamicResource btnminiplay}" VerticalAlignment="Bottom" Name="btnminiplay" Click="btnminiplay_Click" />
+    	<Button Content="Button" HorizontalAlignment="Right" Height="10.082" Margin="0,0,40.796,57.63" Style="{DynamicResource btnmininext}" VerticalAlignment="Bottom" Width="20.418" Name="btnmininext" Click="btnmininext_Click" />
+    	<Button Content="Button" HorizontalAlignment="Left" Height="10.082" Margin="42.12,0,0,58.38" Style="{DynamicResource btnminiback}" VerticalAlignment="Bottom" Width="20.418" Name="btnminiback" Click="btnminiback_Click" />
+    	<Button Content="Button" Height="25.994" Margin="78,0,77.917,50.511" Style="{DynamicResource btnminipause}" VerticalAlignment="Bottom" Visibility="Hidden" Name="btnminipause" Click="btnminipause_Click" />
+        <MediaElement Height="26" HorizontalAlignment="Left" Name="media" VerticalAlignment="Top" Width="63" Margin="0,102,0,0" />
+    </Grid>
+</Window>

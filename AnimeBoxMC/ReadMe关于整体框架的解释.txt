@@ -1,0 +1,24 @@
+﻿1.整体概述
+	主框架：
+		WPF
+	NuGet：
+		Caliburn.Micro
+	Api:
+		Bass.Net.dll
+2.目录解释
+	Content：内嵌资源
+		Image：引用资源文件
+		Sound：引用音频文件
+	Model：基本数据模型
+		Media：基本多媒体模型
+	Service：后台逻辑工厂层
+		Data：数据操作逻辑
+		ServiceFactory.cs：逻辑工厂入口
+	ViewModels：MVVM视图模型
+	Views：MVVM视图
+	AppBootstrapper.cs：Caliburn.Micro框架程序入口
+	IShell.cs：主视图接口
+	bass.dll：引用资源，bass音频库底层支持文件，bass.net库支持文件
+	packages.config：NuGet配置（自动生成，请勿乱修改）
+3.注意事项
+	1.由于使用了bass.net.dll，请注意此Api的安装与引用，官方地址：http://bass.radio42.com/
