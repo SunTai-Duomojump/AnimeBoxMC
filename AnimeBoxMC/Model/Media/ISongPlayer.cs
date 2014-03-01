@@ -8,7 +8,7 @@ namespace AnimeBoxMC.Model.Media
     /// <summary>
     /// 播放状态
     /// </summary>
-    enum PlayState
+    public enum PlayState
     {
         /// <summary>
         /// 已经就绪，但是未加载音频
@@ -52,7 +52,7 @@ namespace AnimeBoxMC.Model.Media
         /// <summary>
         /// 总的持续时间
         /// </summary>
-        double Duration { get;}
+        double Duration { get; }
         /// <summary>
         /// 播放
         /// </summary>
